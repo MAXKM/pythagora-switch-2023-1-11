@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Manato01/Manato02.unity
+    guid: cf2426d77daefe149b1a1d08a03a3dc2
+  - enabled: 1
+    path: Assets/Manato01/test11.unity
+    guid: cde981cdf62a03a4d89ff2acfe050bd1
   m_configObjects: {}
