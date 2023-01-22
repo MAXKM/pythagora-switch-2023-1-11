@@ -8,17 +8,20 @@ public class SasakiSsc : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Invoke("ChangeScene", 1.5f);
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    void ChangeScene()
+    void OnTriggerEnter(Collider other)
     {
-       // SceneManager.LoadScene("Scene");
+        if (other.gameObject.name == "goal")
+        {
+            SceneManager.LoadScene("SceneTT");
+        }
     }
 }
