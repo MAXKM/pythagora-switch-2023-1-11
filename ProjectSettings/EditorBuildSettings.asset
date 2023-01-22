@@ -11,4 +11,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Manato01/test11.unity
     guid: cde981cdf62a03a4d89ff2acfe050bd1
+  - enabled: 1
+    path: Assets/SasakiS01/SasakiS02.unity
+    guid: 4e00c8793bf89054eb0bf5a92739d72d
+  - enabled: 1
+    path: Assets/SasakiS01/SceneTT.unity
+    guid: 913814db1a2073047ad96711d57268fc
   m_configObjects: {}
