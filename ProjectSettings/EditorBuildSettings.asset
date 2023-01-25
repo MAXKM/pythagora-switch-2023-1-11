@@ -5,10 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+
+  - enabled: 1
+    path: Assets/KASUTERA01/KASUTERA01.unity
+    guid: 2b8b39956c9c3f840bf4d203ecddc919
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/KASUTERA01/KASUTERA02.unity
+    guid: de09b92ea80e43f4ca80b981ade86d7a
+
   m_configObjects: {}
