@@ -3,13 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class Scenechange : MonoBehaviour
+public class Scenechangekazuya01 : MonoBehaviour
 {
     void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.name == "Cube (5)")
         {
-            SceneManager.LoadScene("kazuyatest1");
+            SceneManager.LoadScene("Ayaka01");
         }
 
     }
