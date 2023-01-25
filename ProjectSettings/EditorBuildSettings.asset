@@ -17,4 +17,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/SasakiS01/SceneTT.unity
     guid: 913814db1a2073047ad96711d57268fc
+  - enabled: 1
+    path: Assets/kazuya01/kazuya01.unity
+    guid: 36f37ef80a4b4bd43ad13f8586431030
+  - enabled: 1
+    path: Assets/kazuya01/kazuyatest1.unity
+    guid: 7f0bc3bff89671042a1fbb515c4c4fe1
   m_configObjects: {}
