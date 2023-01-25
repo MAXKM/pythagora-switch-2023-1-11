@@ -21,7 +21,7 @@ public class SasakiSsc : MonoBehaviour
     {
         if (other.gameObject.name == "goal")
         {
-            SceneManager.LoadScene("SceneTT");
+            SceneManager.LoadScene("KASUTERA01");
         }
     }
 }
