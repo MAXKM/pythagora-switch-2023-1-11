@@ -9,7 +9,7 @@ public class pitagora : MonoBehaviour
     {
         if(other.gameObject.name == "Cube (11)")
         {
-            SceneManager.LoadScene("test11");
+            SceneManager.LoadScene("kazuya01");
         }
 
     }   
