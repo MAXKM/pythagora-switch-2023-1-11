@@ -21,7 +21,7 @@ public class Soheremove : MonoBehaviour
     {
         if (other.gameObject.name == "Plane")
         {
-            SceneManager.LoadScene("KASUTERA02");
+            SceneManager.LoadScene("oikawa_scenes");
         }
     }
 }

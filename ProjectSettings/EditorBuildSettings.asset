@@ -5,13 +5,22 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Manato01/Manato02.unity
+    guid: cf2426d77daefe149b1a1d08a03a3dc2
   - enabled: 1
     path: Assets/kazuya01/kazuya01.unity
     guid: 36f37ef80a4b4bd43ad13f8586431030
+  - enabled: 1
+    path: Assets/Ayaka/Ayaka01.unity
+    guid: 9688a577fc975ef45a9a68ef61107261
+  - enabled: 1
+    path: Assets/SasakiS01/SasakiS02.unity
+    guid: 4e00c8793bf89054eb0bf5a92739d72d
+  - enabled: 1
+    path: Assets/KASUTERA01/KASUTERA01.unity
+    guid: 2b8b39956c9c3f840bf4d203ecddc919
+  - enabled: 1
+    path: Assets/oikawa/oikawa_scenes.unity
+    guid: 2351037f3dcdecf4bac06b1f9999e3a4
   m_configObjects: {}
