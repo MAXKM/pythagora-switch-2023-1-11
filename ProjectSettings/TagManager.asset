@@ -7,6 +7,9 @@ TagManager:
   - ball
   - han
   - spring
+  - han_RL
+  - spring_R
+  - spring_L
   layers:
   - Default
   - TransparentFX

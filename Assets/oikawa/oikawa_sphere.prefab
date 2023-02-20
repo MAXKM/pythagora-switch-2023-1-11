@@ -12,12 +12,11 @@ GameObject:
   - component: {fileID: 820418491920275715}
   - component: {fileID: 820418491920275712}
   - component: {fileID: 91560676218797209}
-  - component: {fileID: 1934705151926996825}
   - component: {fileID: 820418491920275713}
   - component: {fileID: 820418491920275742}
   m_Layer: 0
   m_Name: oikawa_sphere
-  m_TagString: Untagged
+  m_TagString: ball
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -99,20 +98,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 15f90c18bfdace742ba9efa70064034f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ball: {fileID: 0}
---- !u!114 &1934705151926996825
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 820418491920275743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 60038adc0caa051419b3df0f611159c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  ball: {fileID: 0}
+  ball: {fileID: 820418491920275742}
 --- !u!135 &820418491920275713
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -134,7 +120,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 820418491920275743}
   serializedVersion: 2
-  m_Mass: 0.0000001
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0
   m_UseGravity: 1

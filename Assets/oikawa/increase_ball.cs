@@ -13,8 +13,8 @@ public class increase_ball : MonoBehaviour
     private void OnCollisionEnter(Collision collision)
     {
         //Debug.Log("seikou");
-        Instantiate(Ball, new Vector3(1.0f, 10.5f, 23.1f),Quaternion.identity);
-        Instantiate(Ball, new Vector3(-1.0f, 10.5f, 23.1f), Quaternion.identity);
+        Instantiate(Ball, new Vector3(1.1f, 10.5f, 23.1f),Quaternion.identity);
+        Instantiate(Ball, new Vector3(-0.9f, 10.5f, 23.1f), Quaternion.identity);
         
         
     }
